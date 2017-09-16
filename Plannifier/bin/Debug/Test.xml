@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Untitled</Name>
+  <LastProcessDate>2014-09-29T08:00:00</LastProcessDate>
+  <Projects>
+    <Project>
+      <Name>Project1</Name>
+      <Delivery>2050-01-01T12:00:00</Delivery>
+      <Start>2040-01-01T12:00:00</Start>
+      <End>2050-01-01T12:00:00</End>
+      <Tasks>
+        <ProjectTask>
+          <ID>1</ID>
+          <Level>0</Level>
+          <Index>0</Index>
+          <Name>Version 1 delivery</Name>
+          <ModuleName />
+          <AssignedWorker />
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2049-01-01T12:00:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>1</DaysToComplete>
+          <Fixed>true</Fixed>
+          <Marker>true</Marker>
+          <DaysRemaining>0</DaysRemaining>
+          <Start>2014-12-15T08:00:00</Start>
+          <End>2014-12-15T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>2</ID>
+          <Level>0</Level>
+          <Index>1</Index>
+          <Name>Version 2 delivery</Name>
+          <ModuleName />
+          <AssignedWorker />
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2049-01-01T12:00:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>1</DaysToComplete>
+          <Fixed>true</Fixed>
+          <Marker>true</Marker>
+          <DaysRemaining>0</DaysRemaining>
+          <Start>2014-11-03T08:00:00</Start>
+          <End>2014-11-03T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>3</ID>
+          <Level>1</Level>
+          <Index>2</Index>
+          <Name>Feature 1</Name>
+          <ModuleName>LPCCVideo</ModuleName>
+          <AssignedWorker>SCH</AssignedWorker>
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2014-09-25T11:31:19.0456704+02:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>5</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>0</DaysRemaining>
+          <Start>2014-10-13T08:00:00</Start>
+          <End>2014-10-22T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+      </Tasks>
+    </Project>
+  </Projects>
+  <Workers>
+    <Worker>
+      <Trigram>WK1</Trigram>
+      <FullName />
+      <PercentEfficiency>100</PercentEfficiency>
+      <EfficiencyList>
+        <WorkerModule>
+          <ModuleName>Module1</ModuleName>
+          <PercentEfficiency>25</PercentEfficiency>
+        </WorkerModule>
+        <WorkerModule>
+          <ModuleName>Module2</ModuleName>
+          <PercentEfficiency>25</PercentEfficiency>
+        </WorkerModule>
+      </EfficiencyList>
+      <TaskList>
+      </TaskList>
+      <VacationList />
+    </Worker>
+  </Workers>
+</Workspace>
