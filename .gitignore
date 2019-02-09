@@ -1,0 +1,71 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.so.1
+*.so.1.0
+*.so.1.0.0
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS
+*.cache
+*.ide
+*.lock
+*.pdb
+*.resources
+*.suo
+
+# Make
+Makefile
+Makefile*
+Makefile.*
+
+# Git
+*.directory
+*.stash
+
+# Log
+*.log
+*.0
+*.1
+*.2
+*.3
+*.4
+*.5
+*.6
+*.7
+*.8
+*.9
+
+# Blender
+*.blend1
+
+# Project specific
+/Plannifier/bin/Debug/*.config
+/Plannifier/obj
+/Plannifier/v15
+/.vs

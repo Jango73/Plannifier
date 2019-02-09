@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Workspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Untitled</Name>
-  <LastProcessDate>2014-09-29T08:00:00</LastProcessDate>
+  <LastProcessDate>2019-02-09T08:00:00</LastProcessDate>
   <Projects>
     <Project>
-      <Name>Project1</Name>
+      <Name>Project 1</Name>
       <Delivery>2050-01-01T12:00:00</Delivery>
-      <Start>2040-01-01T12:00:00</Start>
-      <End>2050-01-01T12:00:00</End>
+      <Start>2019-02-11T08:00:00</Start>
+      <End>2019-03-05T08:00:00</End>
       <Tasks>
         <ProjectTask>
           <ID>1</ID>
@@ -41,8 +41,8 @@
           <Fixed>true</Fixed>
           <Marker>true</Marker>
           <DaysRemaining>0</DaysRemaining>
-          <Start>2014-11-03T08:00:00</Start>
-          <End>2014-11-03T08:00:00</End>
+          <Start>2019-02-11T08:00:00</Start>
+          <End>2019-02-23T08:00:00</End>
           <PercentComplete>0</PercentComplete>
         </ProjectTask>
         <ProjectTask>
@@ -50,17 +50,143 @@
           <Level>1</Level>
           <Index>2</Index>
           <Name>Feature 1</Name>
-          <ModuleName>LPCCVideo</ModuleName>
-          <AssignedWorker>SCH</AssignedWorker>
+          <ModuleName>Module1</ModuleName>
+          <AssignedWorker />
           <Priority>Normal</Priority>
           <DeliveryLimit>2014-09-25T11:31:19.0456704+02:00</DeliveryLimit>
           <DependsOnTaskID>0</DependsOnTaskID>
           <DaysToComplete>5</DaysToComplete>
           <Fixed>false</Fixed>
           <Marker>false</Marker>
+          <DaysRemaining>5</DaysRemaining>
+          <Start>2019-02-11T08:00:00</Start>
+          <End>2019-02-23T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>4</ID>
+          <Level>2</Level>
+          <Index>3</Index>
+          <Name>Feature 2</Name>
+          <ModuleName>Module1</ModuleName>
+          <AssignedWorker>WK2</AssignedWorker>
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:36:28.4392132+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>5</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
           <DaysRemaining>0</DaysRemaining>
-          <Start>2014-10-13T08:00:00</Start>
-          <End>2014-10-22T08:00:00</End>
+          <Start>2019-02-11T08:00:00</Start>
+          <End>2019-02-23T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>5</ID>
+          <Level>0</Level>
+          <Index>4</Index>
+          <Name>Feature 3</Name>
+          <ModuleName>Module2</ModuleName>
+          <AssignedWorker />
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:36:40.1468828+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>1</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>1</DaysRemaining>
+          <Start>2019-02-11T08:00:00</Start>
+          <End>2019-02-16T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>6</ID>
+          <Level>1</Level>
+          <Index>5</Index>
+          <Name>Feature 3</Name>
+          <ModuleName>Module2</ModuleName>
+          <AssignedWorker>WK1</AssignedWorker>
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:43:10.7612247+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>2</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>0</DaysRemaining>
+          <Start>2019-02-11T08:00:00</Start>
+          <End>2019-02-16T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>7</ID>
+          <Level>0</Level>
+          <Index>6</Index>
+          <Name>Feature 4</Name>
+          <ModuleName>Module1</ModuleName>
+          <AssignedWorker />
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:44:03.7792571+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>1</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>1</DaysRemaining>
+          <Start>2019-02-18T08:00:00</Start>
+          <End>2019-03-05T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>8</ID>
+          <Level>1</Level>
+          <Index>7</Index>
+          <Name>Feature 5</Name>
+          <ModuleName>Module2</ModuleName>
+          <AssignedWorker>WK1</AssignedWorker>
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:44:12.6317635+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>2</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>0</DaysRemaining>
+          <Start>2019-02-18T08:00:00</Start>
+          <End>2019-02-23T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>9</ID>
+          <Level>1</Level>
+          <Index>8</Index>
+          <Name>Feature 6</Name>
+          <ModuleName>Module2</ModuleName>
+          <AssignedWorker>WK2</AssignedWorker>
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:44:37.3311762+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>3</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>0</DaysRemaining>
+          <Start>2019-02-25T08:00:00</Start>
+          <End>2019-03-05T08:00:00</End>
+          <PercentComplete>0</PercentComplete>
+        </ProjectTask>
+        <ProjectTask>
+          <ID>10</ID>
+          <Level>1</Level>
+          <Index>9</Index>
+          <Name>Feature 7</Name>
+          <ModuleName>Module1</ModuleName>
+          <AssignedWorker>WK1</AssignedWorker>
+          <Priority>Normal</Priority>
+          <DeliveryLimit>2020-02-09T11:44:56.926297+01:00</DeliveryLimit>
+          <DependsOnTaskID>0</DependsOnTaskID>
+          <DaysToComplete>1</DaysToComplete>
+          <Fixed>false</Fixed>
+          <Marker>false</Marker>
+          <DaysRemaining>0.5</DaysRemaining>
+          <Start>2019-02-25T08:00:00</Start>
+          <End>2019-02-27T08:00:00</End>
           <PercentComplete>0</PercentComplete>
         </ProjectTask>
       </Tasks>
@@ -82,6 +208,77 @@
         </WorkerModule>
       </EfficiencyList>
       <TaskList>
+        <WorkerTask>
+          <TaskName>Feature 3</TaskName>
+          <AssignedDays>
+            <dateTime>2019-02-11T08:00:00</dateTime>
+            <dateTime>2019-02-12T08:00:00</dateTime>
+            <dateTime>2019-02-13T08:00:00</dateTime>
+            <dateTime>2019-02-14T08:00:00</dateTime>
+            <dateTime>2019-02-15T08:00:00</dateTime>
+          </AssignedDays>
+        </WorkerTask>
+        <WorkerTask>
+          <TaskName>Feature 5</TaskName>
+          <AssignedDays>
+            <dateTime>2019-02-18T08:00:00</dateTime>
+            <dateTime>2019-02-19T08:00:00</dateTime>
+            <dateTime>2019-02-20T08:00:00</dateTime>
+            <dateTime>2019-02-21T08:00:00</dateTime>
+            <dateTime>2019-02-22T08:00:00</dateTime>
+          </AssignedDays>
+        </WorkerTask>
+        <WorkerTask>
+          <TaskName>Feature 7</TaskName>
+          <AssignedDays>
+            <dateTime>2019-02-25T08:00:00</dateTime>
+            <dateTime>2019-02-26T08:00:00</dateTime>
+          </AssignedDays>
+        </WorkerTask>
+      </TaskList>
+      <VacationList />
+    </Worker>
+    <Worker>
+      <Trigram>WK2</Trigram>
+      <FullName />
+      <PercentEfficiency>100</PercentEfficiency>
+      <EfficiencyList>
+        <WorkerModule>
+          <ModuleName>Module1</ModuleName>
+          <PercentEfficiency>50</PercentEfficiency>
+        </WorkerModule>
+        <WorkerModule>
+          <ModuleName>Module2</ModuleName>
+          <PercentEfficiency>50</PercentEfficiency>
+        </WorkerModule>
+      </EfficiencyList>
+      <TaskList>
+        <WorkerTask>
+          <TaskName>Feature 2</TaskName>
+          <AssignedDays>
+            <dateTime>2019-02-11T08:00:00</dateTime>
+            <dateTime>2019-02-12T08:00:00</dateTime>
+            <dateTime>2019-02-13T08:00:00</dateTime>
+            <dateTime>2019-02-14T08:00:00</dateTime>
+            <dateTime>2019-02-15T08:00:00</dateTime>
+            <dateTime>2019-02-18T08:00:00</dateTime>
+            <dateTime>2019-02-19T08:00:00</dateTime>
+            <dateTime>2019-02-20T08:00:00</dateTime>
+            <dateTime>2019-02-21T08:00:00</dateTime>
+            <dateTime>2019-02-22T08:00:00</dateTime>
+          </AssignedDays>
+        </WorkerTask>
+        <WorkerTask>
+          <TaskName>Feature 6</TaskName>
+          <AssignedDays>
+            <dateTime>2019-02-25T08:00:00</dateTime>
+            <dateTime>2019-02-26T08:00:00</dateTime>
+            <dateTime>2019-02-27T08:00:00</dateTime>
+            <dateTime>2019-02-28T08:00:00</dateTime>
+            <dateTime>2019-03-01T08:00:00</dateTime>
+            <dateTime>2019-03-04T08:00:00</dateTime>
+          </AssignedDays>
+        </WorkerTask>
       </TaskList>
       <VacationList />
     </Worker>
